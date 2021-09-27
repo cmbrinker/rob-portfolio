@@ -35,7 +35,7 @@ const Experience = () => {
       className="experience"
       justifyContent="space-between"
       p="5em 5%"
-      bgColor="white"
+      bgColor="grey"
     >
       <Heading as="h2" display="inline-block" fontFamily="abel">
         Experience
