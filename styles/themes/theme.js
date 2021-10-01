@@ -10,6 +10,9 @@ const theme = extendTheme({
     lora: "Lora",
     slab: "Josefin Slab",
   },
+  colors: {
+    offwhite: "#F5F5F5",
+  },
 });
 
 const breakpoints = createBreakpoints({
