@@ -12,6 +12,7 @@ const theme = extendTheme({
   },
   colors: {
     offwhite: "#F5F5F5",
+    bronze: "#E0DDD5",
   },
 });
 

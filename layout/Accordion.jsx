@@ -7,17 +7,17 @@ import {
   Heading,
 } from "@chakra-ui/react";
 
-const Accordion = ({ heading, children }) => {
+const Accordion = ({ heading, headingSize = "lg", children }) => {
   return (
-    <AccordionContainer allowMultiple>
+    <AccordionContainer allowMultiple w="100%" borderColor="bronze">
       <AccordionItem>
-        <AccordionButton>
+        <AccordionButton justifyContent="center">
           <Heading
             as="h2"
             ml={4}
-            pt={2}
-            pb={2}
-            size="md"
+            pt="1em"
+            pb="1em"
+            size={headingSize}
             fontFamily="slab"
             fontWeight="light"
           >
@@ -25,7 +25,7 @@ const Accordion = ({ heading, children }) => {
           </Heading>
           <AccordionIcon m={2} />
         </AccordionButton>
-        <AccordionPanel m="0 2em" fontFamily="abel" fontSize="lg">
+        <AccordionPanel fontFamily="lora" fontSize="lg">
           {children}
         </AccordionPanel>
       </AccordionItem>
