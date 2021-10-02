@@ -3,12 +3,14 @@ import { createBreakpoints } from "@chakra-ui/theme-tools";
 import "@fontsource/abel";
 import "@fontsource/lora";
 import "@fontsource/josefin-slab";
+import "@fontsource/yaldevi";
 
 const theme = extendTheme({
   fonts: {
     abel: "Abel",
     lora: "Lora",
     slab: "Josefin Slab",
+    yaldevi: "Yaldevi",
   },
   colors: {
     offwhite: "#F5F5F5",

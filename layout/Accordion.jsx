@@ -7,18 +7,24 @@ import {
   Heading,
 } from "@chakra-ui/react";
 
-const Accordion = ({ heading, headingSize = "lg", children }) => {
+const Accordion = ({
+  heading,
+  headingSize = "lg",
+  color,
+  borderColor,
+  children,
+}) => {
   return (
-    <AccordionContainer allowMultiple w="100%" borderColor="bronze">
+    <AccordionContainer allowMultiple w="100%" borderColor={borderColor}>
       <AccordionItem>
-        <AccordionButton justifyContent="center">
+        <AccordionButton justifyContent="center" color={color}>
           <Heading
             as="h2"
             ml={4}
             pt="1em"
             pb="1em"
             size={headingSize}
-            fontFamily="slab"
+            fontFamily="yaldevi"
             fontWeight="light"
           >
             {heading}

@@ -1,10 +1,10 @@
-import { Flex, Text } from "@chakra-ui/react";
+import { Flex, Heading, Text } from "@chakra-ui/react";
 import Accordion from "../layout/Accordion";
 
 const TeachingPhilosophy = () => {
   return (
-    <Accordion heading="Teaching Philosophy">
-      <Flex wrap="wrap">
+    <Flex fontFamily="yaldevi">
+      <Flex wrap="wrap" p="200px 10%">
         <Text w="50%" pr="1em">
           Pragmatically, the scope and sequence of reading and writing
           assignments reflect my teaching philosophy in that I require students
@@ -46,7 +46,12 @@ const TeachingPhilosophy = () => {
           experience, they are more like to make meaningful contributions in the
           classrooms.
         </Text>{" "}
-        <Accordion heading="Read More" headingSize="md">
+        <Accordion
+          heading="Read More"
+          headingSize="sm"
+          color="grey"
+          borderColor="white"
+        >
           <Flex wrap="wrap">
             <Text w="50%" pt="1em" pr="1em">
               {`English teachers at all levels have a responsibility to engage students
@@ -84,7 +89,18 @@ const TeachingPhilosophy = () => {
           </Flex>
         </Accordion>
       </Flex>
-    </Accordion>
+      <Heading
+        as="h2"
+        p="0 10px"
+        textAlign="center"
+        bgColor="rgb(240, 165, 0)"
+        color="white"
+        fontFamily="yaldevi"
+        style={{ writingMode: "vertical-rl" }}
+      >
+        {`P H I L O S O P H Y`}
+      </Heading>
+    </Flex>
   );
 };
 

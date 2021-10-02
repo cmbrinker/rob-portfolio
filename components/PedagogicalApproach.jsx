@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Image, List, ListItem } from "@chakra-ui/react";
+import { Box, Flex, Heading, List, ListItem } from "@chakra-ui/react";
 
 const PedagogicalApproach = () => {
   return (
@@ -20,7 +20,7 @@ const PedagogicalApproach = () => {
       </Box>
       <Box w="50%" p={4}>
         <Heading as="h3" size="lg" fontFamily="slab">
-          University and Communicty College
+          University and Community College
         </Heading>
         <List>
           <ListItem>Developmental Education = 041 Journal 4</ListItem>

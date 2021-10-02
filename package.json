@@ -17,6 +17,7 @@
     "@fontsource/abel": "^4.5.0",
     "@fontsource/josefin-slab": "^4.5.0",
     "@fontsource/lora": "^4.5.0",
+    "@fontsource/yaldevi": "^4.5.0",
     "framer-motion": "^4.1.17",
     "gsap": "^3.7.1",
     "next": "11.1.2",

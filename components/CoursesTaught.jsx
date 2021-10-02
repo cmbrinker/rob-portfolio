@@ -8,7 +8,7 @@ const CoursesTaught = () => {
         <Heading as="h3" size="lg" fontFamily="slab">
           Myers Park High School
         </Heading>
-        <List>
+        <List fontSize="md">
           <ListItem>Fundamentals of English I (Inclusion Class)</ListItem>
           <ListItem>English I</ListItem>
           <ListItem> English III</ListItem>
@@ -23,7 +23,7 @@ const CoursesTaught = () => {
         <Heading as="h3" size="lg" fontFamily="slab">
           Columbus State Community College
         </Heading>
-        <List>
+        <List fontSize="md">
           <ListItem>Advanced Reading</ListItem>
           <ListItem>Basic Communication Skills</ListItem>
           <ListItem>Basic Puncation Skills</ListItem>
@@ -39,7 +39,7 @@ const CoursesTaught = () => {
         <Heading as="h3" size="lg" fontFamily="slab">
           Franklin University
         </Heading>
-        <List>
+        <List fontSize="md">
           <ListItem>Basic College Writing</ListItem>
           <ListItem>Exploring Professoinal Identities</ListItem>
           <ListItem>
@@ -51,7 +51,7 @@ const CoursesTaught = () => {
         <Heading as="h3" size="lg" fontFamily="slab">
           Center for Talented Youth at Johns Hopkins University
         </Heading>
-        <List>
+        <List fontSize="md">
           <ListItem>TBD</ListItem>
         </List>
       </Box>
