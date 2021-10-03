@@ -15,6 +15,7 @@ const theme = extendTheme({
   colors: {
     offwhite: "#F5F5F5",
     bronze: "#E0DDD5",
+    neonGreen: "#00ADB5",
   },
 });
 

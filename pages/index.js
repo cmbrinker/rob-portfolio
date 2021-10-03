@@ -13,7 +13,6 @@ import {
   Tab,
   TabPanel,
 } from "@chakra-ui/react";
-import MenuBox from "../layout/MenuBox";
 import {
   Header,
   Footer,
@@ -30,7 +29,7 @@ import {
 const Home = () => {
   return (
     <>
-      <Heading
+      {/* <Heading
         as="h1"
         p={2}
         fontFamily="yaldevi"
@@ -40,20 +39,59 @@ const Home = () => {
         fontSize="2xl"
       >
         {`Rob O'Donnell`}
-      </Heading>
+      </Heading> */}
       <Flex
-        minH="600px"
-        p="1em 8%"
-        bg="linear-gradient(rgba(51, 71, 86, .89), rgba(51, 71, 86, .9)), url('backgrounds/lecture-chairs.jpg')"
-        bgSize="cover"
+        bgColor="#222831"
+        color="white"
+        h="100vh"
+        justifyContent="space-around"
+        alignItems="center"
+        fontFamily="yaldevi"
+      >
+        <Box
+          w="30%"
+          h="100%"
+          // borderLeft="white solid 1px"
+          // borderRight="white solid 1px"
+          style={{
+            background:
+              "linear-gradient(rgba(57, 62, 70, .8), rgba(57, 62, 70, .8)), 100%/cover url('backgrounds/classroom.jpg')",
+          }}
+        ></Box>
+        <Flex direction="column" justifyContent="center" p="1em">
+          <Text p="2em 0" color="neonGreen" fontSize="xl">
+            Welcome to the <b>Portfolio</b> of
+          </Text>
+          <Heading as="h1" fontFamily="lora" fontSize="6xl">
+            Robert
+            <br /> O'Donnell
+          </Heading>
+          <Text p="2em 0" fontWeight="light" fontSize="2xl">
+            An <b>Educator</b> Based in North Carolina
+          </Text>
+        </Flex>
+      </Flex>
+      <Flex
+        p="2em 8%"
+        bgGradient="linear(to-br,#393E46 90%, #FFF 90%)"
+        bgColor="#222831"
         color="white"
         fontFamily="yaldevi"
         fontSize="1.1em"
         lineHeight="2em"
         alignItems="center"
+        borderTop="white solid 2px"
       >
-        <Flex direction="column">
-          <Text p="1em" w="65%" ml="35%" fontWeight="semibold" fontSize="xl">
+        <Image
+          src="images/james-baldwin.jpg"
+          alt="james baldwin"
+          w="300px"
+          h="300px"
+          boxShadow="-12px 12px 0 #00ADB5, 12px -12px 0 #00ADB5"
+          border="white solid 2px"
+        />
+        <Box p="2em 4em">
+          <Text fontSize="lg">
             “The purpose of education, finally, is to create in a person the
             ability to look at the world for himself, to make his own decisions,
             to say to himself this is black or this is white, to decide for
@@ -61,14 +99,21 @@ const Home = () => {
             the universe, and then learn to live with those questions, is the
             way he achieves his own identity.
           </Text>
-          <Text textAlign="end">
-            James Baldwin
-            <br />
-            {`“A Talk to Teachers"`}
-            <br />
+          <Text>
+            But no society is really anxious to have that kind of person around.
+            What societies really, ideally, want is a citizenry which will
+            simply obey the rules of society. If a society succeeds in this,
+            that society is about to perish. The obligation of anyone who thinks
+            of himself as responsible is to examine society and try to change it
+            and to fight it – at no matter what risk. This is the only hope
+            society has. This is the only way societies change."
+          </Text>
+          <Text fontWeight="semibold">
+            "A Talk to Teachers" <br />
+            James Baldwin <br />
             October 16, 1963
           </Text>
-        </Flex>
+        </Box>
       </Flex>
 
       <Box lineHeight="2em" fontSize="lg" fontFamily="yaldevi">
@@ -105,13 +150,13 @@ const Home = () => {
 
         <Tabs variant="enclosed" p="2em 0" fontFamily="yaldevi">
           <TabList justifyContent="center">
-            <Tab fontSize="md" fontWeight="semibold">
+            <Tab fontSize="md" fontWeight="light">
               Courses Taught
             </Tab>
-            <Tab fontSize="md" fontWeight="semibold">
+            <Tab fontSize="md" fontWeight="light">
               Sample Syllabi
             </Tab>
-            <Tab fontSize="md" fontWeight="semibold">
+            <Tab fontSize="md" fontWeight="light">
               Approach
             </Tab>
           </TabList>

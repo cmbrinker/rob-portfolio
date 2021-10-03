@@ -5,10 +5,10 @@ const Biography = () => {
     <Flex>
       <Heading
         as="h2"
-        p="0 10px"
+        p="0 20px"
         textAlign="center"
-        bgColor="rgb(240, 165, 0)"
-        color="white"
+        bgColor="#EEEEEE"
+        borderLeft="grey solid 1px"
         fontFamily="yaldevi"
         style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}
       >
@@ -20,7 +20,7 @@ const Biography = () => {
         justifyContent="space-around"
         lineHeight="2em"
         fontSize="1em"
-        p="200px 10%"
+        p="100px 10%"
       >
         <Text>
           Originally from Cincinnati, Ohio, I have a B.A. in literature from
@@ -45,12 +45,13 @@ const Biography = () => {
         </Text>
       </Flex>
       <Image
-        src="images/rob-solo.jpg"
+        src="images/rob-solo-transparent.png"
         alt="Rob outside his classroom"
         m={4}
         h="100%"
         w="400px"
         objectFit="contain"
+        alignSelf="center"
       />
     </Flex>
   );

@@ -4,7 +4,7 @@ import Accordion from "../layout/Accordion";
 const TeachingPhilosophy = () => {
   return (
     <Flex fontFamily="yaldevi">
-      <Flex wrap="wrap" p="200px 10%">
+      <Flex wrap="wrap" p="100px 10%">
         <Text w="50%" pr="1em">
           Pragmatically, the scope and sequence of reading and writing
           assignments reflect my teaching philosophy in that I require students
@@ -91,10 +91,10 @@ const TeachingPhilosophy = () => {
       </Flex>
       <Heading
         as="h2"
-        p="0 10px"
+        p="0 20px"
         textAlign="center"
-        bgColor="rgb(240, 165, 0)"
-        color="white"
+        bgColor="#EEEEEE"
+        borderLeft="grey solid 1px"
         fontFamily="yaldevi"
         style={{ writingMode: "vertical-rl" }}
       >
