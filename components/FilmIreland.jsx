@@ -6,7 +6,7 @@ const FilmIreland = () => {
       <Flex
         justifyContent="center"
         alignItems="center"
-        direction={["column", "column", null, null]}
+        direction={["column", "column", "row", "row"]}
       >
         <Image
           src="icons/film-ireland.png"
