@@ -3,14 +3,18 @@ import { Box, Flex, Text, Image, Link } from "@chakra-ui/react";
 const FilmIreland = () => {
   return (
     <Box bgColor="#082032" p="2em 0" color="white">
-      <Flex justifyContent="center" alignItems="center">
+      <Flex
+        justifyContent="center"
+        alignItems="center"
+        direction={["column", "column", null, null]}
+      >
         <Image
           src="icons/film-ireland.png"
           alt="film ireland icon"
           height="85px"
           m={4}
         />
-        <Box w="60%">
+        <Box w={[null, null, "60%", "60%"]} p={[4, 4, null, null]}>
           <Text>
             <Link
               href="https://filmireland.net/2016/04/07/cracking-the-egg-revisiting-boogaloo-and-graham/"

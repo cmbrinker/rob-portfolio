@@ -3,9 +3,17 @@ import Accordion from "../layout/Accordion";
 
 const TeachingPhilosophy = () => {
   return (
-    <Flex lineHeight="2em" fontSize="lg" fontFamily="yaldevi">
-      <Flex wrap="wrap" p="100px 10%">
-        <Text w="50%" pr="1em">
+    <Flex
+      lineHeight="2em"
+      fontSize="lg"
+      fontFamily="yaldevi"
+      direction={["column-reverse", "column-reverse", "column-reverse", "row"]}
+    >
+      <Flex wrap="wrap" p={["1em", "1em", "1em 2em", "100px 10%"]}>
+        <Text
+          w={["100%", "100%", "100%", "50%"]}
+          pr={[null, null, null, "1em"]}
+        >
           Pragmatically, the scope and sequence of reading and writing
           assignments reflect my teaching philosophy in that I require students
           to draw upon both their personal experience and their knowledge
@@ -24,7 +32,10 @@ const TeachingPhilosophy = () => {
           disciplines, have to recognize not only that students come from
           diverse backgrounds, but that they also have diverse objectives.
         </Text>
-        <Text w="50%" pl="1em">
+        <Text
+          w={["100%", "100%", "100%", "50%"]}
+          pl={[null, null, null, "1em"]}
+        >
           In keeping with balancing both student and institutional objectives,
           my education philosophy aims to elevate marginalized voices, empower
           historically overlooked demographics, and provide such students with
@@ -49,11 +60,15 @@ const TeachingPhilosophy = () => {
         <Accordion
           heading="Read More"
           headingSize="sm"
-          color="grey"
+          color=""
           borderColor="white"
         >
           <Flex wrap="wrap">
-            <Text w="50%" pt="1em" pr="1em">
+            <Text
+              w={["100%", "100%", "100%", "50%"]}
+              pt="1em"
+              pr={[null, null, null, "1em"]}
+            >
               {`English teachers at all levels have a responsibility to engage students
         in critical thinking, skill building, and civic engagement. The
         classroom is the ideal place for this because students across the
@@ -69,7 +84,11 @@ const TeachingPhilosophy = () => {
         they come to a greater understanding of what Sikhism is relative to the
         speaker’s identity within American society.`}
             </Text>
-            <Text w="50%" pt="1em" pl="1em">
+            <Text
+              w={["100%", "100%", "100%", "50%"]}
+              pt="1em"
+              pl={[null, null, null, "1em"]}
+            >
               {`Furthermore, teachers need
         to communicate high expectations of respect and agency in the classroom.
         While it isn't the teacher's place to tell students what to think or who
@@ -91,12 +110,17 @@ const TeachingPhilosophy = () => {
       </Flex>
       <Heading
         as="h2"
-        p="0 20px"
+        p={["1em", "1em", "1em", "0 20px"]}
         textAlign="center"
-        bgColor="#EEEEEE"
+        bgColor={[null, null, null, "#EEE"]}
+        color="neonGreen"
         borderLeft="grey solid 1px"
         fontFamily="yaldevi"
-        style={{ writingMode: "vertical-rl" }}
+        sx={{
+          "@media screen and (min-width: 991px)": {
+            writingMode: "vertical-rl",
+          },
+        }}
       >
         {`P H I L O S O P H Y`}
       </Heading>

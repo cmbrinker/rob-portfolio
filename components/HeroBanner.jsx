@@ -67,20 +67,23 @@ const HeroBanner = () => {
       justifyContent="space-around"
       alignItems="center"
       fontFamily="yaldevi"
+      direction={["column-reverse", "column-reverse", "row", "row"]}
+      pb={["50px", "50px", null, null]}
     >
       <Box
-        w="30%"
+        w={["100%", "100%", "30%", "30%"]}
         h="100%"
-        style={{
-          background:
-            "linear-gradient(rgba(57, 62, 70, .8), rgba(57, 62, 70, .8)), 100%/cover url('backgrounds/classroom.jpg')",
-        }}
+        bg="linear-gradient(rgba(57, 62, 70, .6), rgba(57, 62, 70, .6)), 100%/cover url('backgrounds/classroom.jpg')"
       ></Box>
       <Flex direction="column" justifyContent="center" p="1em">
         <Text p="2em 0" color="neonGreen" fontSize="xl">
           Welcome to the <b>Portfolio</b> of
         </Text>
-        <Heading as="h1" fontFamily="lora" fontSize="6xl">
+        <Heading
+          as="h1"
+          fontFamily="lora"
+          fontSize={["5xl", "5xl", "6xl", "6xl"]}
+        >
           Robert
           <br /> {`O'Donnell`}
         </Heading>

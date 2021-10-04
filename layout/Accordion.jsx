@@ -15,7 +15,7 @@ const Accordion = ({
   children,
 }) => {
   return (
-    <AccordionContainer allowMultiple w="100%" borderColor={borderColor}>
+    <AccordionContainer allowMultiple w="100%" borderColor={borderColor} mt={2}>
       <AccordionItem>
         <AccordionButton justifyContent="center" color={color}>
           <Heading
@@ -31,7 +31,9 @@ const Accordion = ({
           </Heading>
           <AccordionIcon m={2} />
         </AccordionButton>
-        <AccordionPanel fontSize="lg">{children}</AccordionPanel>
+        <AccordionPanel fontSize="lg" p="0">
+          {children}
+        </AccordionPanel>
       </AccordionItem>
     </AccordionContainer>
   );

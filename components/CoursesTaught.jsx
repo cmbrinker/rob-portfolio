@@ -3,11 +3,17 @@ import { Flex, Box, Heading, List, ListItem } from "@chakra-ui/react";
 const CoursesTaught = () => {
   return (
     <Flex wrap="wrap" fontFamily="lora">
-      <Box w="50%" p={4}>
-        <Heading as="h3" mb={4} size="lg" fontWeight="light" fontFamily="lora">
+      <Box w={["100%", "100%", "50%", "50%"]} p={[0, 0, 2, 4]} mt={4}>
+        <Heading
+          as="h3"
+          mb={4}
+          size="md"
+          fontWeight="semibold"
+          fontFamily="lora"
+        >
           Myers Park High School
         </Heading>
-        <List fontSize="md">
+        <List fontSize="">
           <ListItem>Fundamentals of English I (Inclusion Class)</ListItem>
           <ListItem>English I</ListItem>
           <ListItem> English III</ListItem>
@@ -18,8 +24,14 @@ const CoursesTaught = () => {
           <ListItem>12th PLC Lead</ListItem>
         </List>
       </Box>
-      <Box w="50%" p={4}>
-        <Heading as="h3" mb={4} size="lg" fontWeight="light" fontFamily="lora">
+      <Box w={["100%", "100%", "50%", "50%"]} p={[0, 0, 2, 4]} mt={4}>
+        <Heading
+          as="h3"
+          mb={4}
+          size="md"
+          fontWeight="semibold"
+          fontFamily="lora"
+        >
           Columbus State Community College
         </Heading>
         <List fontSize="md">
@@ -28,14 +40,20 @@ const CoursesTaught = () => {
           <ListItem>Basic Puncation Skills</ListItem>
           <ListItem>College Success Skills</ListItem>
           <ListItem>Composition I</ListItem>
-          <ListItem>Compisition I with Workshop</ListItem>
+          <ListItem>Composition I with Workshop</ListItem>
           <ListItem>Developmental Composition</ListItem>
           <ListItem>Essay and Research</ListItem>
           <ListItem>Intermediate Reading</ListItem>
         </List>
       </Box>
-      <Box w="50%" p={4}>
-        <Heading as="h3" mb={4} size="lg" fontWeight="light" fontFamily="lora">
+      <Box w={["100%", "100%", "50%", "50%"]} p={[0, 0, 2, 4]} mt={4}>
+        <Heading
+          as="h3"
+          mb={4}
+          size="md"
+          fontWeight="semibold"
+          fontFamily="lora"
+        >
           Franklin University
         </Heading>
         <List fontSize="md">
@@ -46,8 +64,14 @@ const CoursesTaught = () => {
           </ListItem>
         </List>
       </Box>
-      <Box w="50%" p={4}>
-        <Heading as="h3" mb={4} size="lg" fontWeight="light" fontFamily="lora">
+      <Box w={["100%", "100%", "50%", "50%"]} p={[0, 0, 2, 4]} mt={4}>
+        <Heading
+          as="h3"
+          mb={4}
+          size="md"
+          fontWeight="semibold"
+          fontFamily="lora"
+        >
           Center for Talented Youth at Johns Hopkins University
         </Heading>
         <List fontSize="md">

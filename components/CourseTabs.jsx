@@ -3,7 +3,7 @@ import { CoursesTaught, SampleSyllabi, PedagogicalApproach } from "./index";
 
 const CourseTabs = () => {
   return (
-    <Tabs variant="enclosed" p="2em 0" lineHeight="2em">
+    <Tabs variant="enclosed-colored" p="2em 0" lineHeight="2em" minH="650px">
       <TabList justifyContent="center">
         <Tab fontSize="md" fontWeight="">
           Courses Taught
@@ -15,7 +15,7 @@ const CourseTabs = () => {
           Approach
         </Tab>
       </TabList>
-      <TabPanels fontFamily="lora" p="0 8%">
+      <TabPanels fontFamily="lora" p={["0 1em", "0 1em", "0 1em", "0 8%"]}>
         <TabPanel>
           <CoursesTaught />
         </TabPanel>

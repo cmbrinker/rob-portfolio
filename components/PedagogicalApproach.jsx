@@ -1,10 +1,16 @@
-import { Box, Flex, Heading, List, ListItem } from "@chakra-ui/react";
+import { Box, Flex, Heading, List, ListItem, Link } from "@chakra-ui/react";
 
 const PedagogicalApproach = () => {
   return (
     <Flex wrap="wrap">
-      <Box w="50%" p={4}>
-        <Heading as="h3" mb={4} size="lg" fontWeight="light" fontFamily="lora">
+      <Box w={["100%", "100%", "50%", "50%"]} p={[0, 0, 2, 4]} mt={4}>
+        <Heading
+          as="h3"
+          mb={4}
+          size="md"
+          fontWeight="semibold"
+          fontFamily="lora"
+        >
           High School
         </Heading>
         <List>
@@ -18,15 +24,23 @@ const PedagogicalApproach = () => {
           <ListItem>Speech and Debate I - James Baldwin Debate</ListItem>
         </List>
       </Box>
-      <Box w="50%" p={4}>
-        <Heading as="h3" mb={4} size="lg" fontWeight="light" fontFamily="lora">
+      <Box w={["100%", "100%", "50%", "50%"]} p={[0, 0, 2, 4]} mt={4}>
+        <Heading
+          as="h3"
+          mb={4}
+          size="md"
+          fontWeight="semibold"
+          fontFamily="lora"
+        >
           University and Community College
         </Heading>
         <List>
-          <ListItem>Developmental Education = 041 Journal 4</ListItem>
+          <ListItem>Developmental Education - 041 Journal 4</ListItem>
           <ListItem>Composition I - Essay 4</ListItem>
           <ListItem>
-            College Writing I - Exploring Topics Through Annotated References
+            <Link href="approach/exploring-topics-through-annotated-references.pdf">
+              College Writing I - Exploring Topics Through Annotated References
+            </Link>
           </ListItem>
           <ListItem>
             Exploring Business Identities - Perspectives Paper

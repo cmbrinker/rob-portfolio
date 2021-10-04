@@ -3,25 +3,26 @@ import { Box, Flex, Text, Image } from "@chakra-ui/react";
 const BaldwinQuote = () => {
   return (
     <Flex
-      p="2em 8%"
-      bgGradient="linear(to-br,#393E46 95%, #FFF 95%)"
-      bgColor="#222831"
+      p={[" 2em 1em", "2em 1em", "2em 5%", "2em 8%"]}
+      bgColor="#393E46"
       color="white"
       fontFamily="yaldevi"
       fontSize="1.1em"
       lineHeight="2em"
       alignItems="center"
       borderTop="white solid 2px"
+      direction={["column", "column", "column", "row"]}
     >
       <Image
         src="images/james-baldwin.jpg"
         alt="james baldwin"
-        w="300px"
-        h="300px"
+        w={["250px", "250px", "300px", "300px"]}
+        h={["250px", "250px", "300px", "300px"]}
+        m={[2, 2, 2, 8]}
         boxShadow="-12px 12px 0 #00ADB5, 12px -12px 0 #00ADB5"
         border="white solid 2px"
       />
-      <Box p="2em 4em">
+      <Box p={["1em", "1em", "2em", "2em 4em"]}>
         <Text fontSize="lg">
           {`“The purpose of education, finally, is to create in a person the
           ability to look at the world for himself, to make his own decisions,

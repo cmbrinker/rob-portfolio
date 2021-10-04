@@ -2,15 +2,27 @@ import { Flex, Text, Image, Heading } from "@chakra-ui/react";
 
 const Biography = () => {
   return (
-    <Flex lineHeight="2em" fontSize="lg" fontFamily="yaldevi">
+    <Flex
+      lineHeight="2em"
+      bgColor="#EEEEEE"
+      fontSize="lg"
+      fontFamily="yaldevi"
+      direction={["column", "column", "column", "row"]}
+    >
       <Heading
         as="h2"
-        p="0 20px"
+        p={["1em", "1em", "1em", "0 20px"]}
         textAlign="center"
-        bgColor="#EEEEEE"
+        bgColor={[null, null, null, "white"]}
+        color="neonGreen"
         borderLeft="grey solid 1px"
         fontFamily="yaldevi"
-        style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}
+        transform={[null, null, null, "rotate(180deg)"]}
+        sx={{
+          "@media screen and (min-width: 991px)": {
+            writingMode: "vertical-rl",
+          },
+        }}
       >
         {`B I O G R A P H Y`}
       </Heading>
@@ -20,7 +32,7 @@ const Biography = () => {
         justifyContent="space-around"
         lineHeight="2em"
         fontSize="1em"
-        p="100px 10%"
+        p={["1em", "1em", "1em 2em", "100px 10%"]}
       >
         <Text>
           Originally from Cincinnati, Ohio, I have a B.A. in literature from
@@ -47,7 +59,7 @@ const Biography = () => {
       <Image
         src="images/rob-solo-transparent.png"
         alt="Rob outside his classroom"
-        m={4}
+        m={[0, 0, 0, 4]}
         h="100%"
         w="400px"
         objectFit="contain"

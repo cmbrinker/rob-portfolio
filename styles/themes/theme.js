@@ -28,11 +28,11 @@ const theme = extendTheme({
   },
 });
 
-const breakpoints = createBreakpoints({
-  sm: "320px",
-  md: "768px",
-  lg: "960px",
-  xl: "1265px",
-});
+// const breakpoints = createBreakpoints({
+//   sm: "320px",
+//   md: "768px",
+//   lg: "960px",
+//   xl: "1265px",
+// });
 
 export default theme;
