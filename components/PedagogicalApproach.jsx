@@ -4,7 +4,7 @@ const PedagogicalApproach = () => {
   return (
     <Flex wrap="wrap">
       <Box w="50%" p={4}>
-        <Heading as="h3" size="lg" fontFamily="slab">
+        <Heading as="h3" mb={4} size="lg" fontWeight="light" fontFamily="lora">
           High School
         </Heading>
         <List>
@@ -19,7 +19,7 @@ const PedagogicalApproach = () => {
         </List>
       </Box>
       <Box w="50%" p={4}>
-        <Heading as="h3" size="lg" fontFamily="slab">
+        <Heading as="h3" mb={4} size="lg" fontWeight="light" fontFamily="lora">
           University and Community College
         </Heading>
         <List>

@@ -3,7 +3,7 @@ import Accordion from "../layout/Accordion";
 
 const TeachingPhilosophy = () => {
   return (
-    <Flex fontFamily="yaldevi">
+    <Flex lineHeight="2em" fontSize="lg" fontFamily="yaldevi">
       <Flex wrap="wrap" p="100px 10%">
         <Text w="50%" pr="1em">
           Pragmatically, the scope and sequence of reading and writing

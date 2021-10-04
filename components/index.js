@@ -2,7 +2,10 @@ import Header from "./Header";
 import Footer from "./Footer";
 import ArrowDown from "./ArrowDown";
 import Biography from "./Biography";
-import HeroQuote from "./HeroQuote";
+import HeroBanner from "./HeroBanner";
+import BaldwinQuote from "./BaldwinQuote";
+import FilmIreland from "./FilmIreland";
+import CourseTabs from "./CourseTabs";
 import TeachingPhilosophy from "./TeachingPhilosophy";
 import CoursesTaught from "./CoursesTaught";
 import SampleSyllabi from "./SampleSyllabi";
@@ -14,7 +17,10 @@ export {
   Footer,
   ArrowDown,
   Biography,
-  HeroQuote,
+  HeroBanner,
+  BaldwinQuote,
+  FilmIreland,
+  CourseTabs,
   TeachingPhilosophy,
   CoursesTaught,
   SampleSyllabi,

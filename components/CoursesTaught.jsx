@@ -1,11 +1,10 @@
 import { Flex, Box, Heading, List, ListItem } from "@chakra-ui/react";
-import Accordion from "../layout/Accordion";
 
 const CoursesTaught = () => {
   return (
-    <Flex wrap="wrap">
+    <Flex wrap="wrap" fontFamily="lora">
       <Box w="50%" p={4}>
-        <Heading as="h3" size="lg" fontFamily="slab">
+        <Heading as="h3" mb={4} size="lg" fontWeight="light" fontFamily="lora">
           Myers Park High School
         </Heading>
         <List fontSize="md">
@@ -20,7 +19,7 @@ const CoursesTaught = () => {
         </List>
       </Box>
       <Box w="50%" p={4}>
-        <Heading as="h3" size="lg" fontFamily="slab">
+        <Heading as="h3" mb={4} size="lg" fontWeight="light" fontFamily="lora">
           Columbus State Community College
         </Heading>
         <List fontSize="md">
@@ -36,7 +35,7 @@ const CoursesTaught = () => {
         </List>
       </Box>
       <Box w="50%" p={4}>
-        <Heading as="h3" size="lg" fontFamily="slab">
+        <Heading as="h3" mb={4} size="lg" fontWeight="light" fontFamily="lora">
           Franklin University
         </Heading>
         <List fontSize="md">
@@ -48,7 +47,7 @@ const CoursesTaught = () => {
         </List>
       </Box>
       <Box w="50%" p={4}>
-        <Heading as="h3" size="lg" fontFamily="slab">
+        <Heading as="h3" mb={4} size="lg" fontWeight="light" fontFamily="lora">
           Center for Talented Youth at Johns Hopkins University
         </Heading>
         <List fontSize="md">

@@ -31,9 +31,7 @@ const Accordion = ({
           </Heading>
           <AccordionIcon m={2} />
         </AccordionButton>
-        <AccordionPanel fontFamily="lora" fontSize="lg">
-          {children}
-        </AccordionPanel>
+        <AccordionPanel fontSize="lg">{children}</AccordionPanel>
       </AccordionItem>
     </AccordionContainer>
   );

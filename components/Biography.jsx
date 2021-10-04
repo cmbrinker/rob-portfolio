@@ -1,8 +1,8 @@
-import { Box, Flex, Text, Image, Heading } from "@chakra-ui/react";
+import { Flex, Text, Image, Heading } from "@chakra-ui/react";
 
 const Biography = () => {
   return (
-    <Flex>
+    <Flex lineHeight="2em" fontSize="lg" fontFamily="yaldevi">
       <Heading
         as="h2"
         p="0 20px"

@@ -17,6 +17,15 @@ const theme = extendTheme({
     bronze: "#E0DDD5",
     neonGreen: "#00ADB5",
   },
+  layerStyles: {
+    tabPanelTitle: {
+      as: "h3",
+      mb: 4,
+      size: "lg",
+      fontWeight: "light",
+      fontFamily: "lora",
+    },
+  },
 });
 
 const breakpoints = createBreakpoints({

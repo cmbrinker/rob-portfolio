@@ -1,19 +1,23 @@
-import { Flex, Box, Heading, Image, List, ListItem } from "@chakra-ui/react";
+import { Flex, Box, Heading, List, ListItem, Link } from "@chakra-ui/react";
 
 const SampleSyllabi = () => {
   return (
     <Flex wrap="wrap">
       <Box w="50%" p={4}>
-        <Heading as="h3" size="lg" fontFamily="slab">
+        <Heading as="h3" mb={4} size="lg" fontWeight="light" fontFamily="lora">
           High School
         </Heading>
         <List>
-          <ListItem>Honors English 12</ListItem>
+          <ListItem>
+            <Link href="./syllabi/honors-english-iv-syllabus-2021.pdf">
+              Honors English 12
+            </Link>
+          </ListItem>
           <ListItem>Speech and Debate</ListItem>
         </List>
       </Box>
       <Box w="50%" p={4}>
-        <Heading as="h3" size="lg" fontFamily="slab">
+        <Heading as="h3" mb={4} size="lg" fontWeight="light" fontFamily="lora">
           University and Community College
         </Heading>
         <List>
